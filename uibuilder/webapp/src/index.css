@@ -1,0 +1,51 @@
+/* Load the defaults from `<userDir>/node_modules/node-red-contrib-uibuilder/front-end/src/uib-styles.css` 
+@import url("./uib-styles.css"); */
+
+
+/*** GENERAL ***/
+   /* Cloak elements on initial load to hide the possible display of {{ ... }} 
+   * Add to the app tag or to specific tags
+   * [v-cloak] { display: none; }
+   * To display "loading...", change to the following:
+   *    [v-cloak] > * { display:none }
+   *    [v-cloak]::before { content: "loading…"; }
+      
+   */
+   [v-cloak] > * { display: none; }
+   [v-cloak]::before { content: "loading…" }
+
+/*** DBG ***/
+
+   /** /div, span,    /**/
+   [dbg-outline] {
+      border: solid 1px rgb(255, 7, 255); 
+   }
+
+/*** NAVBAR ***/
+   :root{
+      --navbar-h: calc(60px);
+      --appcontainer-h: calc(100vh - var(--navbar-h) - 20px)}
+   .mynavbar,
+   .mynavbar *{
+      padding:0px 0px 0px 0px;
+      margin: 0px;
+   }
+   .mynavbar{
+      display:content-box;
+      width:100vw;
+      padding:5px;
+   }
+   .logo-cont{
+      box-sizing: border-box;
+      background-color: transparent;
+      margin: auto 0px auto 0px;
+      
+   }
+   .logo-cont img,
+   .logo-cont b-img{
+      margin:0px;
+      padding:0px;
+      height:50px;
+   }
+
+/*** ????? ***/

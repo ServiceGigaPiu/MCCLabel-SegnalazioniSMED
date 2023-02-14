@@ -1,1 +1,3 @@
+#recursive node_module folder match #everywhere
+**/node_modules
 *.backup
