@@ -1,12 +1,4 @@
 {
-    "name": "FonderiaBoccacci_RecuperoCalore_readOnlyInterface",
-    "description": "interfaccia multi-utente per la visione dei dati",
-    "version": "0.0.1",
-    "dependencies": {
-        "bootstrap": "^4.6.2",
-        "bootstrap-vue": "~2.23.1",
-        "vue": "^2.7.14"
-    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",

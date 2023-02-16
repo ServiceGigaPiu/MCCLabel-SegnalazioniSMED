@@ -1,3 +1,7 @@
 #recursive node_module folder match #everywhere
 **/node_modules
 *.backup
+
+#project-specific
+*.code-workspace
+.vscode/*
